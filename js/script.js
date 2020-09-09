@@ -80,6 +80,6 @@ $(document).ready(function () {
 		$(".goods-slider." + filter).addClass('active-slider');
 		$('.popular-goods__link').removeClass('active-link');
 		$(this).addClass("active-link");
-
 	})
+	$('.popular-goods__link:first').click();
 });
