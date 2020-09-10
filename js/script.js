@@ -85,5 +85,27 @@ $(document).ready(function () {
 
 		]
 	})
+	$(".slider-trust").slick({
+		slidesToShow: 3,
+		dots: false,
+		arrows: true,
+		autoplay: true,
+		autoplaySpeed: 4000,
+		responsive: [
+			{
+				breakpoint: 1422,
+				settings: {
+					slidesToShow: 2,
+				}
+			},
+			{
+				breakpoint: 600,
+				settings: {
+					slidesToShow: 1,
+				}
+			},
+
+		]
+	})
 
 });
